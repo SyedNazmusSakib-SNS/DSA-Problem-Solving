@@ -44,20 +44,11 @@ class Solution:
         res = list(set(res))
         return res
 
-# Runtime: 68 ms
-# Memory Usage: 14 MB
-
-
-
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1 = set(nums1)
         nums2 = set(nums2)
         return list(nums1.intersection(nums2))
-
-# Runtime: 56 ms
-# Memory Usage: 13.8 MB
-
 
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
